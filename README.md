@@ -18,7 +18,7 @@ The integration_test one is under integration_test folder.
 6. UnMark the same album as Favorite. 
 7. Verify the Unmarked Favorite album disappears from the HomePage.
 
-# Test steps Flutter Integration Test
+# Test steps Flutter Widget Integration Test
 
 1. Launch the App.
 2. Search for artist.
