@@ -1,27 +1,38 @@
-# music_app
+Assignment 
+Info: 
 
-A simple Music Flutter App.
+I created 2 test suites one with the Flutter Driver and the other with intergation_test.
 
-- Domain-Driven Design
-- Dependcy injection
-- Auto-generated (Servcies, Models)
-- Unit Testing
-- Widgets Testing
-- Hive(noSql Database)
-# Flutter Version
-2.5.2
+I am new to flutter, actually started off creating tests with Fltter Driver after almost developing the above tests realised it's an old way and new way is integration_test, so did something with integration_test package too.
 
-## App demo
+The Flutter driver one is under folder test_driver.
+The integration_test one is under integration_test folder.
 
-![](app.gif)
+What the test is doing 
 
-## Dependancies
-- cupertino_icons: ^1.0.2
-- flutter_svg: ^0.22.0
-- flutter_bloc: ^7.3.0
-- equatable: ^2.0.3
-- injectable: ^1.5.0
-- retrofit: ^2.0.1
-- json_annotation: ^4.1.0
-- intl: ^0.17.0
-- hive: ^2.0.4
+Test steps Flutter Driver Tests
+1. Launch the app, verfiy the title and Home page text.
+2. Search for Text 'test'
+3. Pick an Artist and Verify
+4. Mark one of the album as favorites.
+5. Verify this almum is being added to the homepage by going back.
+6. UnMark the same album as Favorite. 
+7. Verify the Unmarked Favorite album disappears from the HomePage.
+
+Test steps Flutter Integration Test
+
+1. Launch the App.
+2. Search for artist.
+3. Pick an artist.
+4. Mark multiple albums as Favorites.
+5. Go back to Home page and Verify the Favorites are added.
+
+
+
+EXECUTION DETAILS 
+
+1. Clone the repo.
+2. Do 'Flutter Pub Get'.
+3.'flutter driver --target=test_driver/app.dart' run Flutter Driver tests.
+4.'flutter test integration_test/music_app_integration_tests.dart' run the widget integration tests.
+
