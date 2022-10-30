@@ -1,15 +1,15 @@
-#Info: 
+# Info: 
 
 I created 2 test suites one with the Flutter Driver and the other with intergation_test.
 
-I am new to flutter, actually started off creating tests with Fltter Driver after almost developing the above tests realised it's an old way and new way is integration_test, so did something with integration_test package too.
+I am new to flutter, actually started off creating tests with Fltter Driver after almost developing the above tests realised that it's an old way and the new way is integration_test, so did something with integration_test package too.
 
 The Flutter driver one is under folder test_driver.
 The integration_test one is under integration_test folder.
 
-What the test is doing 
+# What the test is doing 
 
-Test steps Flutter Driver Tests
+# Test steps Flutter Driver Tests
 1. Launch the app, verfiy the title and Home page text.
 2. Search for Text 'test'
 3. Pick an Artist and Verify
@@ -18,7 +18,7 @@ Test steps Flutter Driver Tests
 6. UnMark the same album as Favorite. 
 7. Verify the Unmarked Favorite album disappears from the HomePage.
 
-Test steps Flutter Integration Test
+# Test steps Flutter Integration Test
 
 1. Launch the App.
 2. Search for artist.
@@ -26,12 +26,10 @@ Test steps Flutter Integration Test
 4. Mark multiple albums as Favorites.
 5. Go back to Home page and Verify the Favorites are added.
 
-
-
-EXECUTION DETAILS 
+# EXECUTION DETAILS 
 
 1. Clone the repo.
-2. Do 'Flutter Pub Get'.
-3.'flutter driver --target=test_driver/app.dart' run Flutter Driver tests.
-4.'flutter test integration_test/music_app_integration_tests.dart' run the widget integration tests.
+2. Do **'Flutter Pub Get'**.
+3.**'flutter driver --target=test_driver/app.dart'** run Flutter Driver tests.
+4.**'flutter test integration_test/music_app_integration_tests.dart'** run the widget integration tests.
 
