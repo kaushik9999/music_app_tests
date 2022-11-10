@@ -43,8 +43,6 @@ group('integration tests music app', () {
           await tester.tap(testTxt);
           await tester.pumpAndSettle();
           final Finder favButton = find.byKey(const ValueKey('FavButton'));
-          //await tester.tap(favButton.first);
-          //await tester.tap(favButton.last);
           Iterator<Element> i =favButton.allCandidates.iterator;
           while(i.moveNext()){
                       for (int j = 1; j < 5; j++) {
