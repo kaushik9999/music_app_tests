@@ -2,7 +2,6 @@
 
 I created 2 test suites one with the Flutter Driver and the other with intergation_test.
 
-I am new to flutter, actually started off creating tests with Fltter Driver after almost developing the above tests realised that it's an old way and the new way is integration_test, so did something with integration_test package too.
 
 The Flutter driver one is under folder test_driver.
 The integration_test one is under integration_test folder.
